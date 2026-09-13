@@ -4,7 +4,7 @@
 ## 1. Overview
 
 <!-- Video: drag an mp4 into this README on GitHub, then replace the src below -->
-<video src="https://github.com/user-attachments/assets/6df27ca8-35d5-4c75-9fba-ef54c71b1def" controls width="1280" height="720" align="left">
+<video src="https://github.com/user-attachments/assets/6df27ca8-35d5-4c75-9fba-ef54c71b1def" controls width="640" height="480" align="left">
 </video>
 
 ### Stop writing reports. Start seeing progress.
