@@ -1,0 +1,21 @@
+.env
+data/
+logs/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+*.egg-info/
+.DS_Store
+
+# ===== 内部资料，禁止推送到远程仓库 =====
+YoMi助手的项目开发计划书.md
+YoMi分阶段开发提示词建议清单.txt
+*项目开发计划书*
+*提示词建议清单*
+*.local.md
+
+# IDE / 编辑器
+.idea/
+.vscode/
