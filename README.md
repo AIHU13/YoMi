@@ -1,24 +1,21 @@
 # YoMi · A Personal AI Work Assistant inside Feishu
 
-English | [简体中文](README.zh-CN.md)
-
 ## 1. Overview
 
-<!-- Video slot: after pushing to GitHub, replace the href below with your demo video link -->
-<table>
-<tr>
-<td width="50%" align="center" valign="middle">
-  <a href="【paste-demo-video-link-here】">
-    <b>▶ Watch the YoMi demo</b>
-  </a>
-  <br/>
-  <sub>(video slot: add the link manually on GitHub)</sub>
-</td>
-<td width="50%">
+<!-- Video: drag an mp4 into this README on GitHub, then replace the src below -->
+<video src="https://github.com/user-attachments/assets/REPLACE-WITH-YOUR-VIDEO-ID" controls width="640" height="480" align="left">
+</video>
 
-**YoMi** is a personal work-review assistant that lives inside Feishu: a **Feishu custom app** as the only user interface, **Bitable** as the cloud data layer, and a **local Python service** as the AI and business-logic center.
+### Stop writing reports. Start seeing progress.
 
-The goal is not "AI writes your daily report", but: **low recording effort, incremental insight, visible long-term growth.**
+YoMi turns **"I'll log it later"** into **"already logged."**
+
+A personal work assistant built for Feishu: a **lightweight daily card** arrives at 22:00, a few bullets become
+**coherent sentences**, one focused follow-up fills the gaps, and the loop closes with **weekly reports, user
+feedback and a monthly capability portrait**.
+
+> **MVP scope:** single user, everything inside Feishu. The LLM layer keeps an **OpenAI-compatible interface**
+> and falls back to your raw wording automatically when the model is unavailable.
 
 **Highlights**
 
@@ -30,9 +27,11 @@ The goal is not "AI writes your daily report", but: **low recording effort, incr
 - 🔌 **Official SDK over WebSocket**: built on `lark-oapi` long connection — **no public domain or tunneling required**
 - 🗣 **Intent routing**: just talk naturally; out-of-scope requests are politely declined
 
-</td>
-</tr>
-</table>
+<br clear="all">
+
+[中文文档（Chinese README）](./README.zh-CN.md)
+
+---
 
 ## 2. Features
 

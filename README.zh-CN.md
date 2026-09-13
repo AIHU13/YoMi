@@ -1,24 +1,20 @@
 # YoMi 助手 · 飞书生态的个人 AI 工作助手
 
-[English](README.md) | 简体中文
-
 ## 1. 产品简介
 
-<!-- 左侧视频位：推送至 GitHub 后，把下方 href 换成演示视频链接（如需封面图，可加 <img> 替换文字链接） -->
-<table>
-<tr>
-<td width="50%" align="center" valign="middle">
-  <a href="【在此粘贴演示视频链接】">
-    <b>▶ 点击观看 YoMi 演示视频</b>
-  </a>
-  <br/>
-  <sub>（视频位：后续在 GitHub 上手动补充链接）</sub>
-</td>
-<td width="50%">
+<!-- 视频位：在 GitHub 上编辑本 README 时直接拖入 mp4，替换下方 src 即可 -->
+<video src="https://github.com/user-attachments/assets/REPLACE-WITH-YOUR-VIDEO-ID" controls width="640" height="480" align="left">
+</video>
 
-**YoMi** 是一个运行在飞书里的个人工作复盘助手：以**飞书自建应用**为唯一交互入口、**多维表格**为云端数据层、**本地 Python 服务**为 AI 处理与业务逻辑中心。
+### 少写报告，多看成长
 
-它要解决的不是"AI 帮你写日报"，而是：**记录负担要低、分析要有增量、长期变化要看得见**。
+把「晚点再写」变成「已经记好了」。
+
+一个长在飞书里的个人工作助手：22:00 推送**极简填写卡片**，几句要点由 AI **串联成连贯短句**，
+产出含糊时**只追问一句**，再用**周报、用户反馈与月度能力画像**闭环沉淀。
+
+> **MVP 范围：** 单用户、交互全部在飞书内完成。LLM 层保持 **OpenAI 兼容接口**，
+> 模型不可用时自动回退为你填写的原始表达，数据不丢。
 
 **核心亮点**
 
@@ -30,9 +26,11 @@
 - 🔌 **官方 SDK 长连接**：基于 `lark-oapi` WebSocket，**无需公网域名与内网穿透**
 - 🗣 **意图路由**：直接说人话即可触发对应服务，超出范围会礼貌回绝
 
-</td>
-</tr>
-</table>
+<br clear="all">
+
+[English README](./README.md)
+
+---
 
 ## 2. 功能介绍与特点
 
