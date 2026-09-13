@@ -1,5 +1,5 @@
 
-# YoMi · A Personal AI Work Assistant inside Feishu
+# YoMi · A Personal AI Work Assistant inside Lark
 
 ## 1. Overview
 
